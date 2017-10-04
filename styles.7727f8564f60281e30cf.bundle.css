@@ -6956,12 +6956,18 @@ body {
   color: white;
   border-radius: 10px; }
 
+.big-section-icon {
+  height: 170px !important; }
+
 .header-image {
   overflow: hidden;
   position: relative;
   display: block;
   width: 100%;
   height: 370px; }
+
+.icons > form {
+  display: inline; }
 
 .icons > a > img {
   width: 32px;
