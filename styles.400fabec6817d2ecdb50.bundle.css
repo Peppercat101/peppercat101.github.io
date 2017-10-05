@@ -6757,13 +6757,51 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-color: #e9e9e9; }
+  background-color: #e9e9e9;
+  overflow-x: hidden; }
 
 .half-line-height {
   line-height: 0.5; }
 
 .glyphicon {
   transform: rotate(0.1deg); }
+
+.copyright {
+  margin-top: 10px;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  width: 100%; }
+
+.footer-contact > span {
+  margin-left: 10px; }
+
+.footer-contact {
+  margin-top: 10px; }
+
+.footer-icons {
+  width: 100%;
+  bottom: 45px !important;
+  margin-bottom: 15px; }
+
+.footer {
+  text-align: center;
+  background: #03002c;
+  /* For browsers that do not support gradients */
+  /* background: -webkit-linear-gradient(left top, #b3acff, #c0b1ff); /* For Safari 5.1 to 6.0 */
+  /* background: -o-linear-gradient(bottom right, #b3acff, #c0b1ff); /* For Opera 11.1 to 12.0 */
+  /*  background: -moz-linear-gradient(bottom right, #b3acff, #c0b1ff); /* For Firefox 3.6 to 15 */
+  /* background: linear-gradient(to bottom right, #b3acff, #c0b1ff); /* Standard syntax */
+  width: 100vw;
+  height: 150px;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  z-index: 99;
+  opacity: 0.8;
+  overflow: hidden;
+  color: white; }
 
 .gradient-top {
   background: #03002c;
@@ -6955,6 +6993,15 @@ body {
   box-shadow: 0px 0px 15px 10px #68669b;
   color: white;
   border-radius: 10px; }
+
+.icon-credit {
+  color: #504e72;
+  bottom: 0px;
+  right: 0px;
+  position: absolute; }
+
+.icon-credit > a {
+  color: #504e72; }
 
 .big-section-icon {
   height: 170px !important; }
@@ -7537,6 +7584,8 @@ body {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
+  .footer-icons {
+    position: absolute; }
   .icons > a > img {
     width: 64px;
     height: 64px; }
@@ -7567,6 +7616,8 @@ body {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: #413f61;
     text-align: left; }
+  .footer-icons {
+    position: absolute !important; }
   .navbar-nav > li {
     background: red;
     /* For browsers that do not support gradients */
