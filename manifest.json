@@ -1,0 +1,13 @@
+{
+  "name": "Melissa Peters",
+  "short_name": "MPeters",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image\/ico"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest"
+}
