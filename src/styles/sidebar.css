@@ -1,0 +1,22 @@
+.side-bar {
+  height: 100%;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.94);
+  width: 200px;
+}
+
+.profile-picture img {
+  position: absolute;
+  top: 25px;
+  border-radius: 200px;
+  left: 25px;
+  height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+}
