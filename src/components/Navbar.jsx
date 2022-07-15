@@ -1,4 +1,4 @@
-import "../../styles/navbar.css";
+import "../styles/navbar.css";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -32,17 +32,20 @@ export default function Navbar() {
         }
       >
         <ul>
-          <li>
+          <li className="lg-item">
             <img src="favicon.png" />{" "}
           </li>
           <li>
-            <a href="/home">Home</a>
+            <a href="/home">About</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">Experience</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/contact">Education</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>{" "}
           </li>
         </ul>
       </div>

@@ -11,12 +11,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  width: calc(100% - 200px);
+  width: calc(100% - 250px);
   float: right;
 }
 
 @media screen and (max-width: 768px) {
   .content {
     width: 100%;
+    padding-top: 100px;
   }
 }
