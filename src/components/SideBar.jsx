@@ -7,6 +7,8 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 export default function SideBar() {
   return (
     <div className="side-bar">
@@ -24,6 +26,15 @@ export default function SideBar() {
         <div>
           <FontAwesomeIcon icon={faEnvelope} />
           contact@melissapeters.me
+        </div>
+        <hr width="100%" />
+        <div className="social-media">
+          <a href="https://www.linkedin.com/in/melissaingels/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a href="https://github.com/Peppercat101" target="_blank">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
         </div>
       </div>
     </div>

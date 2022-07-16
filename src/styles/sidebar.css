@@ -28,6 +28,17 @@
   margin-right: 10px;
 }
 
+.social-media {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.social-media svg {
+  height: 30px;
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .side-bar {
     height: 80px;
