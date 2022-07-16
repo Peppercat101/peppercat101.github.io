@@ -52,13 +52,17 @@
   color: black;
 }
 
+.section {
+  scroll-margin-top: 50px;
+}
+
 @media screen and (max-width: 768px) {
   .content {
     width: 100%;
     padding-top: 150px;
   }
-}
 
-.section {
-  scroll-margin-top: 50px;
+  .section {
+    scroll-margin-top: 100px;
+  }
 }

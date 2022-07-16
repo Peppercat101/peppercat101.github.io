@@ -53,13 +53,22 @@
   }
 
   .general-info {
-    top: 10px;
+    top: 20px;
     left: 100px;
     text-align: left;
     line-height: 20px;
+    width: 100%;
   }
 
   .general-info hr {
     display: none;
+  }
+
+  .general-info .social-media {
+    position: fixed;
+    right: 25px;
+    top: 75px;
+    width: 200px;
+    text-align: right;
   }
 }

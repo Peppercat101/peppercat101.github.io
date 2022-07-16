@@ -1,52 +1,46 @@
 import "../styles/navbar.css";
 import { useState } from "react";
+import * as PropTypes from "prop-types";
+import Hamburger from "./Hamburger";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
+  const getNavLink = (link, name) => {
+    return (
+      <li>
+        <a
+          href={link}
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          {name}
+        </a>
+      </li>
+    );
+  };
+
+  const mainClass = isNavExpanded
+    ? "navigation-menu expanded"
+    : "navigation-menu";
+
   return (
     <nav className="navigation">
-      <button
-        className="hamburger"
+      <Hamburger
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
-      >
-        {/* icon from heroicons.com */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="white"
-        >
-          <path
-            fillRule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </button>
-      <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
-      >
+      />
+      <div className={mainClass}>
         <ul>
           <li className="lg-item">
-            <img src="favicon.png" />{" "}
+            <img src="favicon.png" />
           </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#education">Education</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>{" "}
-          </li>
+          {getNavLink("#about", "About")}
+          {getNavLink("#experience", "Experience")}
+          {getNavLink("#education", "Education")}
+          {getNavLink("#contact", "Contact")}
         </ul>
       </div>
     </nav>
