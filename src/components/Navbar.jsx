@@ -36,16 +36,16 @@ export default function Navbar() {
             <img src="favicon.png" />{" "}
           </li>
           <li>
-            <a href="/home">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="/about">Experience</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="/contact">Education</a>
+            <a href="#education">Education</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>{" "}
+            <a href="#contact">Contact</a>{" "}
           </li>
         </ul>
       </div>

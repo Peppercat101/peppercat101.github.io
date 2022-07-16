@@ -1,12 +1,7 @@
 import "../styles/sidebar.css";
 import ProfilePicture from "./ProfilePicture";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLocationDot,
-  faPhone,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
-
+import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function SideBar() {
@@ -18,10 +13,6 @@ export default function SideBar() {
         <div>
           <FontAwesomeIcon icon={faLocationDot} />
           Ontario, Canada
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faPhone} />
-          +1 647 326 3252
         </div>
         <div>
           <FontAwesomeIcon icon={faEnvelope} />
