@@ -23,7 +23,9 @@ function App() {
             technologies. I enjoy helping others with coding problems and find
             it easy to understand other people's code. I have been in Canada for
             4 years, working as a Full Stack developer. My working experience
-            includes agile and non-agile teams with pairing, mobbing and TDD.
+            includes agile and non-agile teams with pairing, mobbing and TDD. I
+            have a passion for CI/CD and improving developer experience through
+            tools, scripts and documentation.
           </p>
         </div>
         <div id="experience" className="section">
@@ -155,6 +157,27 @@ function App() {
               </div>
             </h4>
           </div>
+        </div>
+        <div id="skills" className="section">
+          <h2>Skills</h2>
+          <h3>Languages</h3>
+          <p>
+            Ruby | JavaScript | Terraform | Java | SQL | CSS3 | HTML5 | PHP |
+            Typescript
+          </p>
+          <h3>Technologies</h3>
+          <p>
+            React | Rails | NodeJS | Angular | GIT | AWS | Java Swing |
+            PostgreSQL | Terragrunt
+          </p>
+          <h3>Personal</h3>
+          <p>
+            Passion for DevOps, CICD and Developer Experience | UI Design |
+            Problem resolution and structured logical thinking abilities |
+            Excellent time management and organizational skills | Good
+            communication skills | Strong team player | Agile/Scrum development
+            methodologies
+          </p>
         </div>
         <div id="contact" className="section">
           <h2>Contact</h2>

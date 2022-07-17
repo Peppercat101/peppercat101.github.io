@@ -40,6 +40,7 @@ export default function Navbar() {
           {getNavLink("#about", "About")}
           {getNavLink("#experience", "Experience")}
           {getNavLink("#education", "Education")}
+          {getNavLink("#skills", "Skills")}
           {getNavLink("#contact", "Contact")}
         </ul>
       </div>
