@@ -14,18 +14,12 @@ function App() {
         <div id="about" className="section">
           <h2>About</h2>
           <p>
-            My name is Melissa Peters. I am an enthusiastic and dedicated
-            Software Developer. Developing software is not just another job but
-            an extension of my identity. I care greatly about the software I
-            create, in both user interface design and coding style. I have
-            experience in multiple web technologies and Java-based desktop
-            applications. I am a fast learner and always willing to learn new
-            technologies. I enjoy helping others with coding problems and find
-            it easy to understand other people's code. I have been in Canada for
-            4 years, working as a Full Stack developer. My working experience
-            includes agile and non-agile teams with pairing, mobbing and TDD. I
-            have a passion for CI/CD and improving developer experience through
-            tools, scripts and documentation.
+            My name is Melissa Peters. With over a decade of experience in software development, I specialize in creating robust full-stack
+            systems. I am passionate about user experience, dedicated to designing applications that are intuitive,
+            responsive, and user-friendly. I thrive on tackling complex challenges and take pride in resolving issues
+            that impact both clients and developers. Collaborative by nature, I work closely with designers and
+            product managers to develop features that are both useful and impactful, ensuring that every solution
+            addresses real needs and drives meaningful results.
           </p>
         </div>
         <div id="experience" className="section">
@@ -33,7 +27,7 @@ function App() {
           <div className="sub-section">
             <h4>
               Software Developer{" "}
-              <div className="sub-heading">Mar 2018 - present (4 years)</div>
+              <div className="sub-heading">Mar 2018 - present (6 years)</div>
               <div className="sub-heading">
                 Nulogy Corporation | Toronto, Canada
               </div>
@@ -73,7 +67,26 @@ function App() {
                 Troubleshot and resolved performance issues for databases and
                 software.
               </li>
+              <li>
+                 Expert: Acted as a key advisor to the design team by evaluating and 
+                 validating thefeasibility of front-end designs, ensuring that proposed designs were practical and aligned with technicalconstraints and capabilities
+               </li>
+               <li>
+                  Participated in the on-call rotation, leading incident responses to ensure quick recoveries and performing post-mortem analyses to prevent future issues.
+               </li> 
+               <li>
+                  Facilitated important agile team meetings on a rotational basis, contributing to effective team collaboration and ensuring alignment with agile methodologies.
+               </li>
+               <li>
+                  Applied test-driven development practices (TDD), including end-to-end tests, to ensure high code quality and reliable software functionality.
+               </li>
+               <li>
+                  Initiated and facilitated cross team collaboration
+                </li>     
             </ul>
+            <span>       
+              <b>Technology stack:</b> Ruby on Rails · React.js · GraphQL · PostgreSQL · JavaScript · Amazon Web Services (AWS) · Typescript
+            </span>       
           </div>
           <div className="sub-section">
             <h4>
