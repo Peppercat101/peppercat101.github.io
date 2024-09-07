@@ -19,7 +19,11 @@ function App() {
             responsive, and user-friendly. I thrive on tackling complex challenges and take pride in resolving issues
             that impact both clients and developers. Collaborative by nature, I work closely with designers and
             product managers to develop features that are both useful and impactful, ensuring that every solution
-            addresses real needs and drives meaningful results.
+            addresses real needs and drives meaningful results. I care greatly about the software I create, in both user interface design and coding style.
+            I have experience in multiple web technologies and Java-based desktop applications. I am a fast learner and always willing to learn new technologies.
+            I enjoy helping others with coding problems and find it easy to understand other people's code.
+            My working experience includes agile and non-agile teams with pairing, mobbing and TDD. 
+            I have a passion for CI/CD and improving developer experience through tools, scripts and documentation.
           </p>
         </div>
         <div id="experience" className="section">
